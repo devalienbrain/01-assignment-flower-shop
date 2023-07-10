@@ -169,7 +169,7 @@ span {
   height: 50vh;
   align-items: center;
   padding-left: 60px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 
 .hot-deal-contents h2 {
@@ -230,3 +230,82 @@ span {
 }
 
 /* Section-4 Instagram section style ends */
+
+/* Section-5 Get Latest Deal section style starts */
+.get-latest-deal-sec {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.get-deal-active-part {
+  border-radius: 8px;
+  background-image: url('../images/get-deal-bg.png');
+  background-color: lightgray;
+  background-size: cover;
+  height: 55vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-deal-active-part h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.get-deal-active-part p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.get-deal-active-part input {
+  width: 450px;
+  padding-left: 15px;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #FFF;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Section-5 Get Latest Deal section style ends */
+
+/* Footer style starts */
+.footer-part {
+  height: 60vh;
+  background-color: #111010;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-part h1 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.footer-part p {
+  font-weight: 400;
+  font-size: 11px;
+  padding-bottom: 35px;
+  color: rgba(255, 255, 255, 0.9)
+}
+
+.footer-part small {
+  font-stretch: semi-expanded;
+  font-weight: 400;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.4)
+}
+
+/* Footer style ends */
