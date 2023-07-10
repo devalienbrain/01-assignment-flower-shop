@@ -1,0 +1,63 @@
+/* Author: Hassan (WEB8-1908) */
+
+/* Universal styles */
+* {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: rgba(39, 39, 39, 1);
+}
+
+/* Common styles */
+.primary-contents-width {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Header part starts */
+.header-part {
+  height: 80vh;
+  background: rgba(229, 84, 115, 0.10);
+}
+
+.all-header-contents {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.header-texts {
+  padding-top: 10vh;
+  flex: 70%;
+  text-align: left;
+  padding-bottom: 10vh;
+}
+
+.header-texts h1 {
+  font-weight: 900;
+  font-size: 55px;
+  padding-bottom: 13px;
+}
+
+.header-texts p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.header-text-btn {
+  padding: 15px 36px;
+  background: #E55473;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+.header-image {
+  flex: 30%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Header part ends */
