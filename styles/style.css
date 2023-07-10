@@ -61,3 +61,63 @@
 }
 
 /* Header part ends */
+
+/* Section-1 Featured flowers style starts */
+.featured-flower-sect {
+  height: 100vh;
+  padding-top: 15vh;
+  text-align: center;
+  /* background-color: red; */
+}
+
+.featured-flower-sect h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.featured-flower-sect p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  height: 55vh;
+  gap: 20px;
+}
+
+.featured-image {
+  flex: 25%;
+  width: 40px;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 300px 300px 0px 0px;
+  padding: 50px 50px 0 50px;
+}
+
+.first-featured-image {
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.second-featured-image {
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.third-featured-image {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-title {
+  padding-top: 13vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured-flower-title p {
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: underline;
+}
