@@ -13,6 +13,19 @@
   margin-right: 150px;
 }
 
+.primary-btn {
+  padding: 15px 36px;
+  background: #E55473;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
+
+span {
+  color: rgba(229, 84, 115, 1);
+}
+
 /* Header part starts */
 .header-part {
   height: 80vh;
@@ -42,15 +55,6 @@
   font-weight: 400;
   font-size: 13px;
   padding-bottom: 13px;
-}
-
-.header-text-btn {
-  padding: 15px 36px;
-  background: #E55473;
-  color: white;
-  font-weight: 700;
-  border: none;
-  border-radius: 8px;
 }
 
 .header-image {
@@ -121,3 +125,108 @@
   font-size: 15px;
   text-decoration: underline;
 }
+
+/* Section-1 Featured flowers style ends */
+
+/* Section-2 24/7 supports banner style starts */
+
+.supprot-section-container {
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 0 70px;
+  margin-bottom: 10vh;
+}
+
+.supprot-section-container img {
+  width: 50px;
+  padding-bottom: 10px;
+}
+
+.supprot-section-container p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* Section-2 24/7 supports banner style ends */
+
+/* Section-3 Hot deal section style starts*/
+.hot-deal-section {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  height: 70vh;
+  text-align: center;
+}
+
+.hot-deal-contents {
+  padding-top: 8vh;
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+.hot-deal-contents h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.hot-deal-contents p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 13px;
+}
+
+.hot-deal-image {
+  flex: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Section-3 Hot deal section style ends */
+
+/* Section-4 Instagram section style starts */
+
+.instagram-sect {
+  height: 80vh;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.instagram-sect h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 11px;
+}
+
+.instagram-sect p {
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 35px;
+}
+
+.insta-container {
+  display: flex;
+  justify-content: space-between;
+  height: 45vh;
+}
+
+.insta-image-1,
+.insta-image-2,
+.insta-image-3,
+.insta-image-4 {
+  flex: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Section-4 Instagram section style ends */
