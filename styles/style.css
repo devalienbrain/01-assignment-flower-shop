@@ -298,7 +298,8 @@ span {
   font-weight: 400;
   font-size: 11px;
   padding-bottom: 35px;
-  color: rgba(255, 255, 255, 0.9)
+  color: rgba(255, 255, 255, 0.9);
+  font-stretch: semi-expanded;
 }
 
 .footer-part small {
