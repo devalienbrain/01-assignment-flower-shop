@@ -231,6 +231,51 @@ span {
 
 /* Section-4 Instagram section style ends */
 
+/*  The BONUS PART - Customer Review Section Style Starts */
+.customer-review-sec {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-review-part {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.customer-review-part h2 {
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.customer-review-part p {
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 35px;
+  font-stretch: expanded;
+}
+
+.customer-review-part small {
+  font-stretch: semi-expanded;
+  font-weight: 400;
+  font-size: 9px;
+}
+
+.indicator-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/*  The BONUS PART - Customer Review Section Style Ends */
+
 /* Section-5 Get Latest Deal section style starts */
 .get-latest-deal-sec {
   margin-top: 5vh;
