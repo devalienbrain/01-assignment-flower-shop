@@ -196,7 +196,7 @@ span {
 /* Section-4 Instagram section style starts */
 
 .instagram-sect {
-  height: 80vh;
+  height: 75vh;
   text-align: center;
   padding-top: 15vh;
 }
@@ -232,15 +232,26 @@ span {
 /* Section-4 Instagram section style ends */
 
 /*  The BONUS PART - Customer Review Section Style Starts */
+
+.customer-review-head {
+  text-align: center;
+  color: greenyellow;
+  background-color: #E55473;
+  font-weight: 900;
+  font-size: 55px;
+  padding: 15px;
+  border: none;
+}
+
 .customer-review-sec {
   height: 70vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .customer-review-part {
-  height: 70vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
