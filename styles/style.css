@@ -248,12 +248,15 @@ span {
   text-align: center;
   margin-left: 120px;
   margin-right: 120px;
+  border: 1px solid goldenrod;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgb(255, 246, 196, 3);
 }
 
 .customer-review-part h2 {
   font-weight: 800;
   font-size: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .customer-review-part p {
@@ -272,6 +275,14 @@ span {
 .indicator-icon {
   width: 40px;
   height: 40px;
+}
+
+.pro-img {
+  width: 70px;
+  border-top: 1px solid green;
+  padding-top: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 /*  The BONUS PART - Customer Review Section Style Ends */
