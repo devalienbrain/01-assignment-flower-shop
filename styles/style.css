@@ -232,12 +232,13 @@ span {
 
 .customer-review-head {
   text-align: center;
-  color: greenyellow;
-  background-color: #E55473;
+  color: tomato;
+  background-color: lightgoldenrodyellow;
   font-weight: 900;
   font-size: 45px;
   padding: 15px;
   border: none;
+  border-radius: 70px;
 }
 
 .customer-review-sec {
